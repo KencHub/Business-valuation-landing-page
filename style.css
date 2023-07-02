@@ -1,0 +1,424 @@
+body {
+  font-size: 2vmax;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 1em;
+  width: auto;
+  box-shadow: rgb(0, 0, 0, 0.07) 0px 1px 1px, rgb(0, 0, 0, 0.07) 0px 2px 2px,
+    rgb(0, 0, 0, 0.07) 0px 4px 4px, rgb(0, 0, 0, 0.07) 0px 8px 8px,
+    rgb(0, 0, 0, 0.07) 0px 16px 16px;
+}
+h1 {
+  font-size: 3.6rem;
+}
+.center-text {
+  padding: 5em;
+}
+.center-text > h1 {
+  margin-bottom: 0.6em;
+}
+
+.center-button > button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 10px;
+  border-style: none;
+  background: #6fc247;
+  border: 2px solid #6fc247;
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+.center-button > :last-child {
+  background: #ffffff;
+  color: #6fc247;
+}
+.center-button > :last-child:hover {
+  transform: scale(0.8, 1);
+  font-weight: 600;
+  transition: ease-in;
+}
+.center-button > :first-child {
+  color: #ffffff;
+}
+.center-button > :first-child:hover {
+  transform: scale(0.8, 1);
+  font-weight: 600;
+  transition: ease-in;
+}
+.button-request > button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 10px;
+  border-style: none;
+  background: #6fc247;
+  border: 2px solid #6fc247;
+  color: #ffffff;
+  font-size: 1.2rem;
+
+  /* max-width: 100%; */
+}
+.button-request > button:hover {
+  background: #949494;
+  border: 2px solid #949494;
+}
+
+.bg-image-center {
+  padding: 1em;
+}
+.bg-image-center > img {
+  max-width: 100%;
+}
+.text-features {
+  margin-bottom: 1rem;
+}
+.features {
+  padding: 5em;
+  text-align: center;
+  font-size: 1.2em;
+}
+.center-text {
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+}
+.center-text > p {
+  font-size: 1.2rem;
+}
+.image-features {
+  display: flex;
+}
+.icon-features {
+  display: flex;
+}
+
+.list-icons > img {
+  max-width: 100%;
+}
+.bottom-div {
+  display: flex;
+  padding: 5em;
+}
+.btm-div {
+  width: 60rem;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btm-div-img > img {
+  max-width: 100%;
+  width: 57rem;
+  max-height: 100%;
+  box-shadow: rgb(0, 0, 0, 0.07) 0px 1px 1px, rgb(0, 0, 0, 0.07) 0px 2px 2px,
+    rgb(0, 0, 0, 0.07) 0px 4px 4px, rgb(0, 0, 0, 0.07) 0px 8px 8px,
+    rgb(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.btm-div > ul > li {
+  list-style: none;
+  margin-left: 20px;
+}
+.btm-div {
+  font-size: 3vmin;
+}
+
+.btm-div > p {
+  margin-top: 1em;
+}
+.footer-btm {
+  text-align: center;
+  height: auto;
+  padding: 1em;
+}
+.footer-btm > button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 10px;
+  border-style: none;
+  background: #6fc247;
+  border: 2px solid #6fc247;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.footer-btm > button:hover {
+  background: #949494;
+  border: 2px solid #949494;
+}
+
+.black-bg {
+  background: black;
+  color: #ffffff;
+  padding: 5em;
+  /* font-size: 1.2em; */
+}
+.bold-text-bg > p {
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+.split {
+  margin-top: 2em;
+}
+
+.text-bg {
+  display: flex;
+  gap: 2em;
+}
+
+/* HEADER MENU ------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem;
+  background-color: #fff;
+  /* color: #fff; */
+}
+
+.nav-links a {
+  color: #636363;
+}
+
+/* LOGO */
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 1.1rem;
+}
+
+.menu li:hover {
+  background-color: #49e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 0.3rem 0.9rem;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: black;
+  opacity: 0.95;
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+  left: -15px;
+  z-index: 1000;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+.dropdown > li > a {
+  color: white;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #4c9e9e;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+/* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a::after {
+  content: " \2304";
+  position: absolute;
+  /* border: 2px solid red; */
+  margin-left: 5px;
+  top: px;
+  bottom: 8px;
+
+  vertical-align: bottom;
+}
+li > a:only-child::after {
+  content: "";
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .bg-image-center > img {
+    max-width: 22rem;
+  }
+  .bg-image-center {
+    text-align: center;
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    box-shadow: rgb(0, 0, 0, 0.07) 0px 1px 1px, rgb(0, 0, 0, 0.07) 0px 2px 2px,
+      rgb(0, 0, 0, 0.07) 0px 4px 4px, rgb(0, 0, 0, 0.07) 0px 8px 8px,
+      rgb(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .dropdown {
+    left: -60%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }
+  .button-request {
+    display: none;
+  }
+}
+.center-button {
+  flex-direction: row;
+}
+
+/* IMAGE AND WRAP ALIGNMENT OF MOBILWS AND TABLETS */
+
+@media screen and (width > 200px) and (width < 769px) {
+  .bottom-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-bg {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-features {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ARRANGE THE POSITION OF THE MENU */
+
+@media screen and (width > 768px) and (width < 950px) {
+  .dropdown {
+    left: -70%;
+    top: 30px;
+  }
+
+  .button-request > button {
+    width: 6rem;
+    max-width: 100%;
+    height: 4rem;
+
+    font-size: 1rem;
+  }
+  .dropdown {
+    left: -70%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+  nav > ul {
+    margin-left: -17px;
+  }
+  a {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .navbar {
+    padding: 1.1rem;
+  }
+  .logo > img {
+    max-width: 100%;
+    width: 10rem;
+  }
+}
+
+/* BUTTON RESPONSIVE */
+@media screen and (width > 820px) and (width < 950px) {
+  .button-request > button {
+    width: 15rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* BUTTON ADJUSTING AND ALIGNING MENU TEXT BARS */
+
+/* _------------------------------------_ */
+
+@media screen and (width > 820px) and (width < 950px) {
+  .button-request > button {
+    width: 10rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (width > 769px) and (width < 1120px) {
+  /* .btm-div {
+    font-size: 70%;
+  } */
+}
+
+@media screen and (width > 769px) and (width < 859px) {
+  .bottom-div {
+    /* display: flex;
+    flex-direction: column; */
+  }
+}
